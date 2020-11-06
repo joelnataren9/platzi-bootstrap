@@ -5,7 +5,7 @@ import './styles/Header.css'
 
 function Header () {
     return(
-        <nav id='header' className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id='header' className="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img src={logo} alt="Logo de Taki" className='logo' />
