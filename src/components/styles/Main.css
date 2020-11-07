@@ -23,3 +23,13 @@
 #carousel .overlay .row {
     height: 100%;
 }
+
+.btn-platzi {
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+    transition: color 1s;
+}
