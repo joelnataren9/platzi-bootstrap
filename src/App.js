@@ -11,7 +11,7 @@ import Speakers from './components/Speakers';
 
 function App() {
   return (
-    <React.Fragment >
+    <React.Fragment>
       <Header />
       <Main />
       <Speakers />

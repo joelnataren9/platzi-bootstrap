@@ -17,7 +17,7 @@ function BecomeSpeaker () {
 
 
         return (
-            <section id='convierte-en-orador '>
+            <section id='convierte-en-orador'>
                 <div className="container py-4">
                     <div className="row">
                         <div className="col text-uppercase text-center">
