@@ -25,11 +25,11 @@
 }
 
 .btn-platzi {
-    background-color: #97c93e;
+    background-color: #97c93e !important;
     color: white;
 }
 
 .btn-platzi:hover {
-    background-color: #82ad36;
+    background-color: #82ad36 !important;
     transition: color 1s;
 }
