@@ -39,7 +39,7 @@ function BuyModal()  {
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                                     <label class="form-check-label" for="exampleCheck1">
-                                        <a href="#" > Acepto los términos y condiciones</a>
+                                        <span className='btn btn-link' > Acepto los términos y condiciones</span>
                                     </label>
                                 </div>
                             </form>

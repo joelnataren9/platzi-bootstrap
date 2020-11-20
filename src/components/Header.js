@@ -32,7 +32,7 @@ function Header () {
                                 <a className="nav-link" href="#convierte-en-orador">Conviértete en orador</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-taki" href="#" data-toggle='modal' data-target='#BuyModal'>Comprar tickets</a>
+                                <a className="nav-link text-taki" href="#main" data-toggle='modal' data-target='#BuyModal'>Comprar tickets</a>
                             </li>
                         </ul>
                     </div>

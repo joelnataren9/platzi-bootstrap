@@ -25,7 +25,7 @@ function Speakers () {
                                 <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum sint cumque beatae, eligendi hic consequatur nobis voluptate officia eaque.
                                 </p>
-                                <a href="#" className="btn btn-primary">Conoce más </a>
+                                <span href="#" className="btn btn-primary">Conoce más </span>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Speakers () {
                                 <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repudiandae impedit consequatur modi eum odit!
                                 </p>
-                                <a href="#" className="btn btn-primary">Conoce más</a>
+                                <span href="#" className="btn btn-primary">Conoce más</span>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Speakers () {
                                 <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi, sequi doloribus suscipit quod repellat fugiat quas.
                                 </p>
-                                <a href="#" className="btn btn-primary">Conoce más</a>
+                                <span className="btn btn-primary">Conoce más</span>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ function Speakers () {
                                 <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aperiam reprehenderit unde eveniet maxime!
                                 </p>
-                                <a href="#" className="btn btn-primary">Conoce más</a>
+                                <span className="btn btn-primary">Conoce más</span>
                             </div>
                         </div>
                     </div>
