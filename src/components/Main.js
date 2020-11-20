@@ -30,8 +30,8 @@ function Main () {
                                         Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti.
                                         ¡Te esperamos!
                                     </p>
-                                    <a href="#" className="btn btn-outline-light"> Quiero ser orador</a>
-                                    <button type="button" className='btn btn-platzi'>Comprar tickets</button>
+                                    <a href="#convierte-en-orador" className="btn btn-outline-light"> Quiero ser orador</a>
+                                    <button type="button" className='btn btn-platzi' data-toggle='modal' data-target='#BuyModal' >Comprar tickets</button>
                                 </div>
                             </div>
                         </div>

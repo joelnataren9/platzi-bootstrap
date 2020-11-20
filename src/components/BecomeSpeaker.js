@@ -7,6 +7,7 @@ import './styles/BecomeSpeaker.css';
 // import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import SpeakerModal from './SpeakerModal';
 
 function BecomeSpeaker () {
 
@@ -60,7 +61,7 @@ function BecomeSpeaker () {
                                     </div>
                                 </div>
                                 <div className="form-row">
-                                    <div className="col form-group">
+                                    <div className="col-8 form-group offset-sm-0 offset-2 col-sm">
                                         <textarea name="text" className='form-control form-control-lg' placeholder='Sobre qué quieres hablar?'></textarea>
                                         <small className='form-text text-muted text-center'>
                                             Recuerda incluir un título para tu charla.
@@ -68,8 +69,8 @@ function BecomeSpeaker () {
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col">
-                                        <button type='button' className='btn btn-platzi btn-block'>
+                                    <div className="col-sm-12 col-8 offset-2">
+                                        <button type='button' className='btn btn-platzi btn-block' data-toggle='modal' data-target='#SpeakerModal'>
                                             Enviar
                                         </button>
                                     </div>
@@ -78,6 +79,7 @@ function BecomeSpeaker () {
                         </div>
                     </div>
                 </div>
+                <SpeakerModal />
             </section>
         );
 }
