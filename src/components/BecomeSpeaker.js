@@ -69,7 +69,7 @@ function BecomeSpeaker () {
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-sm-12 col-8 offset-2">
+                                    <div className="col-sm-12 col-8 offset-2 offset-sm-0">
                                         <button type='button' className='btn btn-platzi btn-block' data-toggle='modal' data-target='#SpeakerModal'>
                                             Enviar
                                         </button>
