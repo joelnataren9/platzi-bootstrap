@@ -7,25 +7,25 @@ export default function Footer() {
             <div className="container">
                 <div className="row text-center">
                     <div className="col-12 col-lg">
-                        <a href="#">Preguntas frecuentes</a>
+                        <span className='btn btn-link'>Preguntas frecuentes</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Contáctanos</a>
+                        <span className='btn btn-link'> Contáctanos</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Prensa</a>
+                        <span className='btn btn-link'> Prensa</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Conferencias</a>
+                        <span className='btn btn-link'> Conferencias</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Términos y condiciones</a>
+                        <span className='btn btn-link'> Términos y condiciones</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Privacidad</a>
+                        <span className='btn btn-link'> Privacidad</span>
                     </div>
                     <div className="col-12 col-lg">
-                        <a href="#"> Estudiantes</a>
+                        <span className='btn btn-link'> Estudiantes</span>
                     </div>
                 </div>
             </div>
