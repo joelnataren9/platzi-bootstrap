@@ -1,8 +1,8 @@
 import React from 'react';
 
 import BuyModal from './BuyModal.js';
-import logo from '../images/logo.png';
-import './styles/Header.css'
+
+import './styles/Header.css';
 
 function Header () {
     return(
@@ -10,7 +10,7 @@ function Header () {
             <nav id='header' className="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark sticky-top">
                 <div className="container">
                     <a className="navbar-brand" href="#header">
-                        <img src={logo} alt="Logo de Taki" className='logo' />
+                        <img src='https://res.cloudinary.com/joeln7/image/upload/v1605910519/platzi-bootstrap/logo_ct4vb6.png' alt="Logo de Taki" className='logo' />
                         Conf Hawaii
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">

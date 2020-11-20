@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Honolulu from '../images/honolulu.jpg';
 import './styles/DateTime.css';
 
 function DateTime () {
@@ -9,7 +8,7 @@ function DateTime () {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 col-lg-6 px-0">
-                        <img className='' src={Honolulu} alt="Ciudad de Honolulu"/>
+                        <img className='' src='https://res.cloudinary.com/joeln7/image/upload/v1605910517/platzi-bootstrap/honolulu_u3nd3p.jpg' alt="Ciudad de Honolulu"/>
                     </div>
                     <div className="col-12 col-lg-6 py-4 text-center text-lg-right align-self-center">
                         <h2>Honolulu - Octubre 2025</h2>

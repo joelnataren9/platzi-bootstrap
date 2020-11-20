@@ -1,9 +1,5 @@
 import React from 'react';
 
-import hawai1 from '../images/hawaii.jpg';
-import hawai2 from '../images/hawaii2.jpg';
-import hawai3 from '../images/hawaii3.jpeg';
-
 import './styles/Main.css';
 
 function Main () {
@@ -12,13 +8,13 @@ function Main () {
             <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel" data-pause= 'false' data-interval='3000'>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={hawai1} alt="Hawai 1" />
+                        <img className="d-block w-100" src='https://res.cloudinary.com/joeln7/image/upload/v1605910519/platzi-bootstrap/hawaii2_sbmsww.jpg' alt="Hawai 1" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={hawai2} alt="Hawai 2" />
+                        <img className="d-block w-100" src='https://res.cloudinary.com/joeln7/image/upload/v1605910519/platzi-bootstrap/hawaii_gwwrb0.jpg' alt="Hawai 2" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={hawai3} alt="Hawai 3" />
+                        <img className="d-block w-100" src='https://res.cloudinary.com/joeln7/image/upload/v1605910517/platzi-bootstrap/hawaii3_rfjadw.jpg' alt="Hawai 3" />
                     </div>
                     <div className="overlay">
                         <div className="container">

@@ -1,10 +1,5 @@
 import React from 'react';
 
-import cvander from '../images/cvander.jpeg';
-import sacha from '../images/sacha.jpg';
-import freddy from '../images/freddy.jpeg';
-import leonidas from '../images/leonidas.jpeg';
-
 import './styles/Speakers.css';
 
 function Speakers () {
@@ -20,7 +15,7 @@ function Speakers () {
                 <div className="row">
                     <div className="col-md-6 col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 mb-4">
                         <div className="card">
-                            <img className="card-img-top" src={cvander} alt="foto de cvander"/>
+                            <img className="card-img-top" src='https://res.cloudinary.com/joeln7/image/upload/v1605910517/platzi-bootstrap/cvander_h8oeg9.jpg' alt="foto de cvander"/>
                             <div className="card-body">
                                 <div className="badges text-right mb-0">
                                     <span className="badge badge-pill  badge-warning">Fullstack Developer</span>
@@ -36,7 +31,7 @@ function Speakers () {
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 mb-4">
                         <div className="card">
-                            <img className="card-img-top" src={freddy} alt="foto de cvander"/>
+                            <img className="card-img-top" src='https://res.cloudinary.com/joeln7/image/upload/v1605910517/platzi-bootstrap/freddy_zfgwz7.jpg' alt="foto de cvander"/>
                             <div className="card-body">
                                 <div className="badges text-right mb-0">
                                     <span className="badge badge-pill badge-warning">Git</span>
@@ -52,7 +47,7 @@ function Speakers () {
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 mb-4">
                         <div className="card">
-                            <img className="card-img-top" src={leonidas} alt="foto de cvander"/>
+                            <img className="card-img-top" src='https://res.cloudinary.com/joeln7/image/upload/v1605910519/platzi-bootstrap/leonidas_a4kiev.jpg' alt="foto de cvander"/>
                             <div className="card-body">
                                 <div className="badges text-right mb-0">
                                     <span className="badge badge-pill badge-warning">JavaScript</span>
@@ -68,7 +63,7 @@ function Speakers () {
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 mb-4">
                         <div className="card">
-                            <img className="card-img-top" src={sacha} alt="foto de cvander"/>
+                            <img className="card-img-top" src='https://res.cloudinary.com/joeln7/image/upload/v1605910518/platzi-bootstrap/sacha_vqliqc.jpg' alt="foto de cvander"/>
                             <div className="card-body">
                                 <div className="badges text-right mb-0">
                                     <span className="badge badge-pill badge-warning">Angular js</span>
